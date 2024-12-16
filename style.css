@@ -1,0 +1,707 @@
+body {
+  background-color: black;
+}
+
+.navbar {
+  box-shadow: rgb(3, 41, 3);
+  background-color: black;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  color: white;
+}
+
+.navbar-nav .nav-link.active {
+  color: black;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 10px;
+}
+
+.btn-brand {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+
+.btn-brand:hover {
+  background-color: black;
+  border-color: var(--c-brand-light);
+  color: green;
+}
+
+#blog {
+  background: url(/Images/uncharted\ \(12\).JPG);
+  background-position: center;
+  background-size: cover;
+  padding: 20%;
+}
+
+#hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.507)), url(/Images/un-12.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#about {
+  background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.507)), url(/Images/uncharted\ \(9\).JPG);
+  background-position: center;
+  background-size: cover;
+  padding: 10%;
+}
+
+#gameinfo {
+  background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.507)), url(/Images/uncharted\ \(26\).JPG);
+  background-position: center;
+  background-size: cover;
+  padding: 20%;
+}
+
+#gallery {
+  background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.507)), url(/Images/uncharted\ \(7\).jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 20%;
+}
+
+#login {
+  background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.507)), url(/Images/uncharted\ \(14\).JPG);
+  background-position: center;
+  background-size: cover;
+  padding: 20%;
+}
+
+#contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.507)), url(/Images/uncharted\ \(2\).jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 20%;
+}
+
+#product {
+  background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.507)), url(/Images/uncharted\ \(3\).jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 20%;
+}
+
+#profile {
+  background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.507)), url(/Images/uncharted\ \(11\).jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 20%;
+}
+
+.section-title {
+  margin-bottom: 40px;
+}
+
+.section-title .line {
+  width: 60px;
+  height: 4px;
+  background-color: rgb(228, 223, 223);
+  margin: 16px auto 24px auto;
+}
+
+.section-title p {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.col-lg-3-text-white-col-sm-6 {
+  color: white;
+  text-align: justify;
+  border: thin solid;
+  background-color: black;
+  border-color: black;
+  border-radius: 5%;
+  padding: 5%;
+}
+
+.carousel-inner {
+  width: 100%;
+}
+
+.mb-3 {
+  margin-right: 50px;
+  margin-left: 50px
+}
+
+footer {
+  background-color: black;
+}
+
+.footerContainer {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.socialIcons a i {
+  font-size: 2em;
+  color: black;
+  opacity: 0, 9;
+}
+
+.socialIcons a:hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+
+.footerNav {
+  margin: 30px 0;
+}
+
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+
+}
+
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+
+.footerBottom {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.footerBottom p {
+  color: white;
+}
+
+.designer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+@media (max-width: 700px) {
+  .footerNav ul {
+    flex-direction: column;
+  }
+
+  .footerNav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .socialIcons a {
+    padding: 8px;
+    margin: 4px;
+  }
+}
+
+.contact {
+  width: 85%;
+  background: black;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact .contenttt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact .contenttt .left-side {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+
+.contenttt .left-side::before {
+  content: '';
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #afafb6;
+}
+
+.contenttt .left-side .details {
+  margin: 14px;
+  text-align: center;
+}
+
+.contenttt .left-side .details i {
+  font-size: 30px;
+  color: rgb(9, 54, 9);
+  margin-bottom: 10px;
+}
+
+.contenttt .left-side .details .topic {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.contenttt .left-side .details .text-one,
+.contenttt .left-side .details .text-two {
+  font-size: 14px;
+  color: #afafb6;
+}
+
+.contact .contenttt .right-side {
+  width: 75%;
+  margin-left: 75px;
+}
+
+.contenttt .right-side .topic-text {
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+}
+
+.right-side .input-box {
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+
+.right-side .input-box input,
+.right-side .input-box textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #F0F1F8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+
+.right-side .message-box {
+  min-height: 110px;
+}
+
+.right-side .input-box textarea {
+  padding-top: 6px;
+}
+
+.right-side .button {
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.right-side .button input[type="button"] {
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #165227;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button input[type="button"]:hover {
+  background: #146024;
+}
+
+@media (max-width: 950px) {
+  .contact {
+    width: 90%;
+    padding: 30px 40px 40px 35px;
+  }
+
+  .contact .contenttt .right-side {
+    width: 75%;
+    margin-left: 55px;
+  }
+}
+
+@media (max-width: 820px) {
+  .contact {
+    margin: 40px 0;
+    height: 100%;
+  }
+
+  .contact .contenttt {
+    flex-direction: column-reverse;
+  }
+
+  .contact .contenttt .left-side {
+    width: 100%;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .contact .contenttt .left-side::before {
+    display: none;
+  }
+
+  .contact .contenttt .right-side {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.product-card {
+  position: relative;
+  max-width: 355px;
+  width: 100%;
+  border-radius: 25px;
+  padding: 20px 30px 30px 30px;
+  background: black;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  overflow: hidden;
+
+}
+
+.product-card .logo-cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-card .logo-cart img {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+}
+
+.main-images>img {
+  width: 157px;
+
+}
+
+.product-card .logo-cart i {
+  font-size: 27px;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.product-card .logo-cart i:hover {
+  color: white;
+}
+
+.product-card .main-images {
+  position: relative;
+  height: 210px;
+}
+
+.product-card .main-images img.active {
+  opacity: 1;
+}
+
+.product-card .shoe-details .shoe_name {
+  font-size: 24px;
+  font-weight: 500;
+  color: #161616;
+}
+
+.product-card .shoe-details .stars i {
+  margin: 0 -1px;
+  color: #333;
+}
+
+.product-card .color-price .color-option {
+  display: flex;
+  align-items: center;
+}
+
+.color-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.color-price .color-option .color {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  margin-right: 8px;
+}
+
+.color-option .circles {
+  display: flex;
+}
+
+.color-option .circles .circle {
+  height: 18px;
+  width: 18px;
+  background: lightgreen;
+  border-radius: 50%;
+  margin: 0 4px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.color-option .circles .circle.blue.active {
+  box-shadow: 0 0 0 2px #fff,
+    0 0 0 4px green;
+}
+
+.color-option .circles .circle.pink {
+  background: blue;
+}
+
+.color-option .circles .circle.pink.active {
+  box-shadow: 0 0 0 2px #fff,
+    0 0 0 4px blue;
+}
+
+.color-option .circles .circle.yellow {
+  background: gray;
+}
+
+.color-option .circles .circle.yellow.active {
+  box-shadow: 0 0 0 2px #fff,
+    0 0 0 4px gray;
+}
+
+.color-price .price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-price .price .price_num {
+  font-size: 25px;
+  font-weight: 600;
+  color: #707070;
+}
+
+.color-price .price .price_letter {
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: -4px;
+  color: #707070;
+}
+
+.product-card .button {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  border-radius: 25px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.product-card .button .button-layer {
+  position: absolute;
+  height: 100%;
+  width: 300%;
+  left: -100%;
+  background-image: linear-gradient(135deg, green, blue, green, blue);
+  transition: all 0.4s ease;
+  border-radius: 25PX;
+}
+
+.product-card .button:hover .button-layer {
+  left: 0;
+}
+
+.product-card .button button {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.main-box {
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  transform: translateX(-50%);
+  width: 400px;
+  height: 550px;
+  text-align: center;
+}
+
+.main-box .content {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.contenet .box {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.share,
+.cancel {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2980b9;
+  line-height: 50px;
+  background: #fff;
+  letter-spacing: 1px;
+  border-radius: 25px;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.contenet .box .share {
+  opacity: 1;
+}
+
+#check:checked~.box .share {
+  opacity: 0;
+}
+
+#check:checked~.box .cancel {
+  opacity: 1;
+}
+
+.contenet .image-box {
+  position: absolute;
+  height: 450px;
+  width: 100%;
+  bottom: 130px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  padding: 10px;
+  border-radius: 25px;
+  transition: all 0.4s ease;
+}
+
+#check:checked~.image-box {
+  bottom: 70px;
+}
+
+#check {
+  display: none;
+}
+
+.image-box::before {
+  position: absolute;
+  content: '';
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  height: 30px;
+  width: 30px;
+  background: #fff;
+  z-index: -1;
+}
+
+.image-box>img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 26px;
+}
+
+.image-box .about {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 25px;
+  padding: 20px;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+#check:checked~.image-box .about {
+  opacity: 1;
+}
+
+.about .details {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 35px;
+}
+
+.details .name,
+.job {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.details .icon i {
+  font-size: 20px;
+  color: #fff;
+  height: 45px;
+  width: 45px;
+  line-height: 43px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin: 14px 5px;
+  transition: all 0.3s ease;
+}
+
+.details .icon i:hover {
+  transform: scale(0.95);
+}
